@@ -1,6 +1,6 @@
 const http = requiere('http');
 
-Const port = 3000;
+Const port = 80;
 
 const server = http.createServer((req,res) => {
 	res.statusCode = 200;
